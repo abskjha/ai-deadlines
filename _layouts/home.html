@@ -160,8 +160,8 @@
           }
         }
         // Needs to be changed
-        store.set('{{ site.baseurl }}', subs);
-        window.history.pushState('', '', '/?sub=' + subs.join());
+        store.set('{{ site.domain }}', subs);
+        window.history.pushState('', '', '/iiit_talks/?sub=' + subs.join());
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -180,7 +180,7 @@
               subs.splice(idx, 1);
           }
           console.log(subs);
-          store.set('{{ site.baseurl }}', subs);
+          store.set('{{ site.domain }}', subs);
           window.history.pushState('', '', '/?sub=' + subs.join());
         });
     });
