@@ -4,7 +4,7 @@ description: IIIT talks
 author: Abhishek Jha
 
 domain: "abskjha.github.io/iiit_talks"
-baseurl: "http://abskjha.github.io/iiit_talks"
+baseurl: "/iiit_talks"
 
 twitter_username: abhishekjha2010
 twitter_hashtag: machinelearning
