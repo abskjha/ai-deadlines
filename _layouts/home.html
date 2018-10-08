@@ -31,7 +31,7 @@
                 </div>
                 <div class="meta col-xs-12">
                   {{ site.description }}
-                  To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
+                  To add/update about an event @ IIIT, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>.
                 </div>
             </div>
             <br>
@@ -159,6 +159,7 @@
             $('.' + all_subs[i] + '-conf').hide();
           }
         }
+        // Needs to be changed
         store.set('{{ site.baseurl }}', subs);
         window.history.pushState('', '', '/?sub=' + subs.join());
 
@@ -179,7 +180,7 @@
               subs.splice(idx, 1);
           }
           console.log(subs);
-          store.set('{{ site.domain }}', subs);
+          store.set('{{ site.baseurl }}', subs);
           window.history.pushState('', '', '/?sub=' + subs.join());
         });
     });
