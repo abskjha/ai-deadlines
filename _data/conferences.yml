@@ -11,6 +11,16 @@
   place: H-104, Himalaya, IIIT Hyderabad
   sub: TK
 
+- name: Data-Driven Representation Learning with Applications in Gene Expression and Fake News Detection.
+  year: 2018
+  id: thesis_2018_11_01_01
+  link: http://iiit.ac.in/
+  deadline: "2018-11-01 16:00"
+  timezone: IST
+  date: November 01, Thursday, 2018
+  place: A3-117 Conference Room, Vindhya Building
+  sub: TH
+  
 # - name: ICRA
 #   year: 2019
 #   id: icra2019
