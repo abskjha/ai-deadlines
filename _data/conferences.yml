@@ -21,6 +21,17 @@
   place: A3-117 Conference Room, Vindhya Building
   sub: TH
   
+- name: Free Health Check-up Medical Camp
+  year: 2018
+  id: other_2018_11_03_01
+  link: http://iiit.ac.in/
+  deadline: "2018-11-03 11:00"
+  timezone: Asia/Kolkata
+  date: November 03, Thursday, 2018
+  place: Aarogya Center, IIIT Hyderabad
+  sub: OT
+  
+  
 # - name: ICRA
 #   year: 2019
 #   id: icra2019
